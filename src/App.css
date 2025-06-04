@@ -1,0 +1,116 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #f1f3f5;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  background-color: #007bff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin-right: 1.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Container Layout */
+.container {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Inputs */
+input {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.6rem 0.8rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+/* Paragraphs */
+p {
+  margin: 0.3rem 0;
+}
+
+.preview {
+  background: white;
+  padding: 2rem 3rem;
+  max-width: 700px;
+  margin: 2rem auto;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+/* Header */
+.preview h3 {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Invoice client */
+.preview p {
+  margin: 0.25rem 0 1rem 0;
+  font-size: 1.1rem;
+}
+
+/* Item table */
+.preview ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+  border-collapse: collapse;
+}
+
+.preview ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  font-size: 1rem;
+}
+
+.preview ul li:last-child {
+  border-bottom: none;
+}
+
+/* Total */
+.preview h4 {
+  text-align: right;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #007bff;
+  margin-top: 1rem;
+}
+
