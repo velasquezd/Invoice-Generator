@@ -6,7 +6,6 @@ import Navbar from './components/Navbar.jsx';
 import Home from './pages/Home.jsx';
 import Invoice from './pages/Invoice.jsx';
 import PurchaseOrder from './pages/PurchaseOrder.jsx';
-import Quotes from './pages/Quotes.jsx';
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/invoice" element={<Invoice />} />
         <Route path="/purchase-order" element={<PurchaseOrder />} />
-        <Route path="/quotes" element={<Quotes />} /> {/* ✅ This must match the <Link> */}
         <Route path="*" element={<h1>404 - Page Not Found</h1>} />
       </Routes>
     </>
