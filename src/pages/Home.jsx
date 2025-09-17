@@ -6,9 +6,8 @@ function Home() {
       <div style={styles.card}>
         <h1 style={styles.heading}>Welcome to the Business Document Generator</h1>
         <p style={styles.message}>
-          Thank you for taking a look at my project! I'm currently working on building the
-          functionality of the site as well as trying to add customizable aspects, and then I’ll start
-          working on improving the design.
+         Thank you for checking out my project!
+I'm currently focused on building out the core functionality of the site and adding customizable features. Once that's in place, I'll start working on improving the overall design. This is still an ongoing project, and I’m excited to continue developing it!
         </p>
       </div>
     </div>
